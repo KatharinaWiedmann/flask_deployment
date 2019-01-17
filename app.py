@@ -7,7 +7,7 @@ Created on Wed Jan 16 09:37:10 2019
 
 from flask import Flask, render_template, request
 
-app = Flask("MyApp")
+app = Flask(__name__)
 
 
 #main file will show the index file (which is an extension of the layout file)
@@ -42,7 +42,7 @@ def hello_name(name):
     return render_template("hello.html", name=name.title())
 
 
-
-app.run(debug = True)
+if __name__ == "__main__":
+    app.run(debug = True)
 
 

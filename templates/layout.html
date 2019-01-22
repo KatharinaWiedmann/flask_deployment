@@ -8,13 +8,7 @@
  <body>
     <header>
 		<h1>{{title}}</h1>
-        <nav>
-          <ul class="menu">
-            <li><a href="{{ url_for('contact') }}">Contact form</a></li>
-            <li><a href="{{ url_for('ada') }}">Ada</a></li>
-          </ul>
-        </nav>
-      </div>
+        <p>Flask Deployment Test - This should be on every page that extends the layout page</p>
     </header>
     {% block content %}
     {% endblock %}

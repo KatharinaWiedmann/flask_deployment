@@ -145,3 +145,8 @@ padding: 10px;
 .wrapper_for_body {
 padding-top: 5%;
 }
+
+h1{
+font-family: Helvetica;
+color: green;
+}

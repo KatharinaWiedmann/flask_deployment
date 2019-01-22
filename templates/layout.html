@@ -3,11 +3,10 @@
  <head>
    <meta charset="utf-8">
    <title>{{title}} | Flask Experiment</title>
-  <link rel="stylesheet" href="{{ url_for('static', filename='css/custom-css.css')}}">
+   <link rel="stylesheet" href="{{ url_for('static', filename='css/custom-css.css')}}">
  </head>
  <body>
     <header>
-		<h1>{{title}}</h1>
         <h1>Flask Deployment Test - This should be on every page that extends the layout page</h1>
     </header>
     {% block content %}

@@ -1,10 +1,13 @@
 # flask_deployment
 
-For Assessment
+Mixed website of random content for testing Flask deployment. 
 
 to deploy the code:
-1) Log into heroku (Git Bash) 
-2) Heroku create
-3) Git add. / commit 
-4) git push heroku master
-5) heroku open 
+1) Log into heroku (in Git Bash) 
+2) heroku create (in Git Bash)  
+3) git add.
+4) git commit -m"..."
+5) git push heroku master
+6) heroku open  
+
+--> opens the website on heroku
